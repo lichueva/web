@@ -222,7 +222,7 @@ footer h2{
     column-gap: 60px;
 }
 
-@media screen and (max-width: 740px) {
+@media (max-width: 740px) {
 	.products-wrapper {		
 		grid-template-columns: repeat(auto-fill, 260px);		
 	}
@@ -237,7 +237,7 @@ footer h2{
 		
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
 	.products-wrapper {		
 		grid-template-columns: repeat(auto-fill, 200px);		
 	}
